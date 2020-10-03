@@ -7,7 +7,10 @@
 
 <!-- badges: end -->
 
-The goal of clarklytics is to …
+The goal of `clarklytics` is to make my life easier while I complete an
+MBA @ NYU Stern. As I collect functions for various coursework and side
+business analytics projects, I want to make the most commonly used
+available to me anywhere.
 
 ## Installation
 
