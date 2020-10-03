@@ -3,6 +3,7 @@
 export(annuity_present_value_factor)
 export(cagr)
 export(create_par_value_tbl)
+export(effective_annual_rate)
 export(future_value)
 export(present_value)
 export(present_value_annuity)
