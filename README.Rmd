@@ -22,33 +22,30 @@ The goal of `clarklytics` is to make my life easier while I complete an MBA @ NY
 
 ## Installation
 
-You can install the released version of clarklytics from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of clarklytics from [github](https://github.com/) with:
 
 ``` r
-#install.packages("clarklytics")
+devtools::install_github("bclark86/clarklytics")
 ```
 
-## Example
+## Time Value of Money
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example of the `present_value` function. 
 
-```{r example}
-#library(clarklytics)
-## basic example code
+```{r present_value}
+library(clarklytics)
+
+clarklytics::present_value(future_value = 1000, rate = 0.05, periods = 5)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+Here is another one with the par value of a zero coupon bond. 
 
-```{r cars}
-summary(cars)
+```{r par_value_tbl}
+clarklytics::create_par_value_tbl(face_value = 1000, rate = 0.07)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 
-You can also embed plots, for example:
+## What's Next?
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
+Not sure. That depends on how classes go. Stay tuned!
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
