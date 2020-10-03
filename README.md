@@ -18,7 +18,7 @@ You can install the released version of clarklytics from
 [github](https://github.com/) with:
 
 ``` r
-devtools::install_github("bclark86/clarklytics")
+devtools::install_github("bclark86/clarklytics", ref = "main")
 ```
 
 ## Time Value of Money
